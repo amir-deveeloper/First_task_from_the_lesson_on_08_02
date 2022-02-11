@@ -1,1 +1,185 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T13:45:29.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" version="16.5.3" etag="qGRK7N6-sU5N5KcR-Pjr" type="github"><diagram id="Ps8GY6gw6mnLdPBPc35q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-11T14:29:39.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="M7lip29wq8VsQJR2LH-Y" version="16.5.3" type="github">
+  <diagram id="Ps8GY6gw6mnLdPBPc35q" name="Page-1">
+    <mxGraphModel dx="1351" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="369.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-3" value="Enter numbers in &lt;br&gt;array N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-4" value="End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="369.75" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-5" value="Is the number K&amp;nbsp;&lt;br&gt;even?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="359.75" y="360" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.41" y="300" as="sourcePoint" />
+            <mxPoint x="429.41" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-7" value="Create a list of first half of the numbers in array N" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="184.75" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-8" value="Create a list of first (K-1)/2 numbers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="544.75" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RK8fMJgs5AJ_ixaWoZto-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.75" y="400" as="sourcePoint" />
+            <mxPoint x="214.75" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="244.75" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-11" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RK8fMJgs5AJ_ixaWoZto-9">
+          <mxGeometry x="-0.3744" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RK8fMJgs5AJ_ixaWoZto-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.75" y="400" as="sourcePoint" />
+            <mxPoint x="384.75" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="604.75" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-12" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RK8fMJgs5AJ_ixaWoZto-10">
+          <mxGeometry x="-0.4811" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.25" y="540" as="sourcePoint" />
+            <mxPoint x="244.25" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.25" y="660" as="sourcePoint" />
+            <mxPoint x="244.25" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="604.25" y="540" as="sourcePoint" />
+            <mxPoint x="604.25" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="604.25" y="660" as="sourcePoint" />
+            <mxPoint x="604.25" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-22" value="Create a list of second half of the numbers in array N" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="184.75" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.16" y="780" as="sourcePoint" />
+            <mxPoint x="244.16" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.16" y="900" as="sourcePoint" />
+            <mxPoint x="244.16" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="244.16000000000008" y="1020" as="sourcePoint" />
+            <mxPoint x="244.16000000000008" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-30" value="Output the sum of &lt;br&gt;these numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="171" y="600" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-33" value="Output the product of these numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="173.5" y="720" width="142.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-34" value="Output the sum of &lt;br&gt;these numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="531" y="600" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-35" value="Output the product of these numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="533.5" y="720" width="142.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-36" value="Output the sum of &lt;br&gt;these numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="171" y="960" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-37" value="Output the product of these numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="173.5" y="1080" width="142.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-38" value="Create a list of numbers starting from ((K-1)/2 +1) element to the last one&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="544.75" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="604.16" y="780" as="sourcePoint" />
+            <mxPoint x="604.16" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="604.4099999999999" y="900" as="sourcePoint" />
+            <mxPoint x="604.4099999999999" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="604.4099999999999" y="1020" as="sourcePoint" />
+            <mxPoint x="604.4099999999999" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-43" value="Output the sum of &lt;br&gt;these numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="531" y="960" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-44" value="Output the product of these numbers" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="533.5" y="1080" width="142.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RK8fMJgs5AJ_ixaWoZto-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="243.75" y="1140" as="sourcePoint" />
+            <mxPoint x="334.75" y="1320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="243.75" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RK8fMJgs5AJ_ixaWoZto-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="604.2499999999999" y="1140" as="sourcePoint" />
+            <mxPoint x="504.75" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="604.75" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.66" y="180" as="sourcePoint" />
+            <mxPoint x="429.66" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-48" value="K = length of &lt;br&gt;array N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RK8fMJgs5AJ_ixaWoZto-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.6600000000001" y="60" as="sourcePoint" />
+            <mxPoint x="429.6600000000001" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
